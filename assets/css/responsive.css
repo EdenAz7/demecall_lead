@@ -1,0 +1,143 @@
+@media (max-width: 1400px) {
+    #services {
+      max-width: 80%;
+    }
+  }
+  
+  @media (max-width: 1160px) {
+    #services {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    #about-us {
+      align-items: unset;
+    }
+  
+    .about-heading {
+      font-size: 1.8rem;
+    }
+  
+    .about-content p {
+      font-size: 1rem;
+    }
+  
+    #about-us img {
+      margin-bottom: -2rem;
+      max-height: 30rem;
+    }
+  }
+  
+  @media (min-width: 870px) {
+    .menu-btn {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 870px) {
+    .desktop-menu {
+      display: none;
+    }
+  
+    #about-us {
+      gap: 2rem;
+    }
+  
+    #contact-us {
+      flex-direction: column;
+    }
+  
+    .contact-content {
+      text-align: center;
+      max-width: 30rem;
+      margin: 0 2rem;
+    }
+  
+    .contact-content h2 {
+      margin: -2rem 0 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #about-us {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+    }
+  
+    #about-us img {
+      margin-bottom: 1rem;
+    }
+  
+    .cards-container {
+      flex-direction: column;
+    }
+  
+    .section-heading {
+      text-align: center;
+    }
+  
+    #services {
+      max-width: 80%;
+    }
+  
+    #contact-us {
+      flex-direction: column;
+    }
+  
+    .waves {
+      max-height: 50px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .hero-text {
+      font-size: 1.4rem;
+      padding: 0.8rem;
+    }
+  
+    #services {
+      max-width: 90%;
+    }
+  
+    .logos:before,
+    .logos:after {
+      width: 100px;
+    }
+  }
+  
+  @media (max-width: 465px) {
+    #about-us {
+      padding: 0 2rem;
+    }
+  
+    .hero-text {
+      font-size: 1.2rem;
+    }
+  
+    .about-content h2 {
+      text-align: center;
+    }
+  
+    .hero-button {
+      font-size: 1rem;
+    }
+  
+    #contact-us img {
+      width: 20rem;
+      margin: 0 2rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    #contact-us img {
+      width: 15rem;
+    }
+  }
