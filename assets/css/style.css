@@ -177,7 +177,7 @@ body {
   justify-content: center;
   padding: 8px 15px;
   border-radius: 8px;
-  background-color: #0f2851;
+  background-color: #f88009;
   /* Blue background */
   color: white;
   font-size: 18px;
@@ -195,7 +195,7 @@ body {
 }
 
 .phone-number:hover {
-  background-color: #09004d;
+  background-color: hsla(30, 94%, 50%, 0.693);
   /* Darker blue on hover */
 }
 
@@ -235,7 +235,7 @@ body {
 }
 
 .header-nav ul a:hover {
-  color: #0f2851(0, 136, 255);
+  color: #fa8908(0, 136, 255);
 }
 
 
@@ -285,7 +285,7 @@ h1 {
 }
 
 #contact {
-  background: radial-gradient(circle at top left, #e0edff, #71ace6);
+  background: radial-gradient(circle at top left, #e0edff, #ff7c02);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,7 +382,7 @@ textarea {
   padding: 11px;
   margin-top: 10px;
   border-radius: 999px;
-  background: linear-gradient(135deg, #0b7ed6, #0f2851);
+  background: linear-gradient(135deg, #f4b270, #f88009);
   color: #ffffff;
   font-weight: 600;
   font-size: 1rem;
@@ -788,7 +788,7 @@ footer {
 
 
 .bottom-bar {
-  background: #0f2851;
+  background: #f88009;
   text-align: center;
   padding: 10px 0;
   /* margin-top: 50px; */
