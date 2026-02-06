@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const submitBtn = document.getElementById("submit-button");
 
   // הכנס כאן את ה־URL הנכון של ה־Google Apps Script שלך
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwxKiMlRWWW1tUGK8YyqHRk96_Lyfi9u28C1PDlhcweh9lR6l00v2GNhU90UDw1rWjS/exec";
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxlCjf4M-JSuc5wzIOalVSZySk9WsZ9k46PNcq-5Y3FaNTjyoLQROcFgdHtWwcP5fGq/exec";
 
   if (form && messageBox && submitBtn) {
     form.addEventListener("submit", function (e) {
