@@ -71,7 +71,7 @@
   <main>
 
     <section id="contact" class="reveal">
-      
+
       <form id="form" class="form-container" method="POST">
         <h1>demeCall</h1>
 
@@ -95,8 +95,11 @@
           <input id="phone" type="tel" placeholder="Entrez votre numéro de Téléphone" name="Telephone" required>
         </div>
         <div class="form-group">
-          <label for="current-address">Département<span class="required">*</span></label>
-          <select id="residence" name="Département" required>
+          <label for="residence">Département (Plusieurs choix possibles) <span class="required">*</span></label>
+
+          <input type="text" id="searchDept" placeholder="Rechercher un département..." class="form-control mb-2">
+
+          <select id="residence" name="Département" required multiple size="6">
             <option value="" disabled selected>Choisissez...</option>
             <option value="01">01 - Ain</option>
             <option value="02">02 - Aisne</option>
@@ -195,7 +198,7 @@
             <option value="95">95 - Val-d'Oise</option>
           </select>
         </div>
-       
+
         <div class="form-group">
           <label for="notes">Informations Supplémentaires</label>
           <textarea id="notes" placeholder="Ajoutez des informations supplémentaires" name="Notes"></textarea>

@@ -785,9 +785,27 @@ footer {
 .footer-content ul {
   text-align: center;
 }
+#searchDept {
+    margin-bottom: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* מניעת קפיצות כשמסננים */
+#residence option {
+    padding: 8px;
+}
  h1{
   color: #f88009;
  }
+ #residence option:checked {
+  background: #f88009 linear-gradient(0deg, #f88009 0%, #f88009 100%);
+  color: white;
+}
 
 .bottom-bar {
   background: #f88009;
