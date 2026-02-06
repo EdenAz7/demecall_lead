@@ -785,7 +785,9 @@ footer {
 .footer-content ul {
   text-align: center;
 }
-
+ h1{
+  color: #f88009;
+ }
 
 .bottom-bar {
   background: #f88009;
